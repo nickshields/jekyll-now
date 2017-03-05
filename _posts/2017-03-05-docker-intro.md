@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taking my look at Docker
+title: Setting up Docker for Development
 ---
 ![_config.yml]({{ site.baseurl }}/images/docker.png)
 
