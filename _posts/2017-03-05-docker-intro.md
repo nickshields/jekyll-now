@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taking my first step into Docker
+title: Taking my look at Docker
 ---
 ![_config.yml]({{ site.baseurl }}/images/docker.png)
 
@@ -21,17 +21,20 @@ Assuming you're following the steps [here](https://docs.docker.com/opensource/pr
 **Task 3, Step 10** where you are asked to push the changes you made back to GitHub.
 
 Here's what happened at that stage for me:
-`Nicks-iMac:docker-fork nickshields$ git push --set-upstream origin dry-run-test
+
+``Nicks-iMac:docker-fork nickshields$ git push --set-upstream origin dry-run-test
 Username for 'https://github.com': nickshields
 Password for 'https://nickshields@github.com': 
 remote: Permission to moxiegirl/docker.git denied to nickshields.
-fatal: unable to access 'https://github.com/moxiegirl/docker.git/': The requested URL returned error: 403`
+fatal: unable to access 'https://github.com/moxiegirl/docker.git/': The requested URL returned error: 403``
 
 The solution, which was found [here](http://stackoverflow.com/questions/7438313/pushing-to-git-returning-error-code-403-fatal-http-request-failed), was to do the following:
 1. Edit `.git/config`
 2. Find `url=` entry under section `[remote "origin"]`
 3. Ensure that the address specified is of this form: `https://github.com/YOUR_USERNAME/docker.git`
    where YOUR_USERNAME is your GitHub username.
+   
+
 
 
 
