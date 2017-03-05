@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I should say something clever here :)
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
+I am actively seeking to apply technical knowledge and softskills in a 4 month Co-op, starting in May 2017.
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nwshield@edu.uwaterloo.ca](mailto:nwshield@edu.uwaterloo.ca)
